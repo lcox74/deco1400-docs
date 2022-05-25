@@ -1,6 +1,3 @@
-# Have You Heard of Netpbm?
-> 8th March 2022
-
 I came across a cool graphics library called Netpbm, it's a collection of open-source graphics protocls that are very very simple to implement. So simple that you can make images by hand. The only issue is that not many image viewers support the collection, though if you use GIMP you'll be able to view it just fine.
 
 Out of the collection the one I want to look at in particular is the PPM protocol which allows us to create RGB images pixel by pixel. There are a couple things that are required to do this:
