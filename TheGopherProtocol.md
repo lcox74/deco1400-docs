@@ -1,6 +1,3 @@
-# The Gopher Protocol
-> 8th March 2022
-
 Gopher is a protocol created around 1991 but a team of people at the University of Minnesota. It's a very light internet protocol that was killed off swiftly after the release of the World Wide Web (www). It's light in the sense that it was mainly used for read-only documentation distribution and functioned/looked very much like a file system. This allowed Gopher to be compatiable with working in terminal based computers
 
 This post is an introduction to the network protocol and trying to develop a client and server application as a challenge to myself to learn new things and see how things were done before my time. The spec I am following for this project is via the IETF datatracker; [RFC 1436](https://datatracker.ietf.org/doc/html/rfc1436). I'll be starting with a terminal based client application and test it with any servers that still actively use the protocol like: `gopher://gopher.floodgap.com/gopher` ([http proxy](http://gopher.floodgap.com/gopher/gw.lite)).
